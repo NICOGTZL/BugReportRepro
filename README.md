@@ -4,6 +4,11 @@ Helping to solve a bug on Microsoft Playwright.
 
 Playwright not compatible with JavaFX.
 
+ENVIROMENT:
+- OpenJDK 18.0.1
+- Graddle
+- Dependencies: https://imgur.com/a/KA7r3cC
+
 ERRORS: 
 
 See https://docs.gradle.org/7.4/userguide/command_line_interface.html#sec:command_line_warnings
