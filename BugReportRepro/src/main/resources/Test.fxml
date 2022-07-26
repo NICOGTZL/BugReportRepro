@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="743.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bugreportrepro.Controller.StartButton">
+   <children>
+      <TabPane layoutX="206.0" prefHeight="743.0" prefWidth="1094.0" style="-fx-background-color: #111111;" stylesheets="@style.css" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Home">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="462.0" prefWidth="554.0">
+                     <children>
+                        <ScrollBar layoutX="1080.0" orientation="VERTICAL" prefHeight="714.0" prefWidth="14.0" />
+                        <ToggleButton fx:id="toggle29" layoutX="44.0" layoutY="182.0" mnemonicParsing="false" onAction="#toggleAction29" prefHeight="31.0" prefWidth="238.0" style="-fx-background-color: #228B22;" text="Start" textFill="WHITE">
+                           <font>
+                              <Font name="Arial Bold" size="15.0" />
+                           </font>
+                        </ToggleButton>
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab text="Page2">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ScrollBar layoutX="1080.0" layoutY="2.0" orientation="VERTICAL" prefHeight="714.0" prefWidth="14.0" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>
